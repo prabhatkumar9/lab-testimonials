@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.testimonials {
+
+  margin-left: 60px;
+
+}
+
+.container {
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 5px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+
+}
+
+hr {
+  border: 0.7px solid rgb(190, 189, 189);
+  border-radius: 4px;
+}
+
+
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.container span {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.container p {
+  padding: 0em 1em;
+}
+
+.art {
+  padding-top: 1em;
+}

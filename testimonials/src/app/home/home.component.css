@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  text-align: justify;
+}
+
+.content {
+  padding-top: 50px;
+
+
+
+}
+
+.image {
+
+
+  margin-top: 40px;
+
+}
+
+img {
+  margin-left: 170px;
+  padding-right: 80px;
+  height: 22em;
+  width: 19em;
+}
+
+h1 {
+
+  color: orangered;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#p1 {
+
+  font-weight: 10px;
+  text-overflow: ellipsis;
+}
+
+#p2 {
+  font-weight: bold;
+}
+
+#p3 {
+  color: orangered;
+}
